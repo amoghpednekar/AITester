@@ -1,0 +1,31 @@
+# --- Local / sensitive ---
+.env
+*.local
+.DS_Store
+
+# --- Node / Playwright ---
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+
+# --- Java / Maven / Selenium ---
+target/
+*.class
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+*.iml
+
+# --- Session / agent config (local only) ---
+.commandcode/
+.agents/
+
+# --- PDFs (source docs, large binaries) ---
+*.pdf
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.cache
